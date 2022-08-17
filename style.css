@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #2D2B2B;
+}
+.header{
+  height: 400px;
+  background-image: url("img/Header-img.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid #A3A8A9;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#state{
+  background-color: transparent;
+  color: #799AA2;
+  text-shadow: 4px 2px 4px black;
+}
+#try{
+  background-color: transparent;
+  color: #A3A8A9;
+  text-shadow: 0px 0px 4px black;
+  font-weight: 800;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0;
+  background-color: #865E54;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sections{
+  text-align: center;
+  display: inline-block;
+  margin:50px auto;
+}
+.image{
+  border: 3px solid #B98070;
+  border-radius: 50%;
+  height:150px;
+  width: 150px;
+}
+.text{
+ color: #A6A9B4; 
+ text-shadow: 0px 0px 2px black;
+}
+.para{
+  color: #28292A;
+  font-weight: bold;
+}
+.guide-section{
+  background-color: #D8D2D1;
+  display: flex;
+  justify-content: center
+}
+.guide{
+  background-color: #3B3331;
+  margin:100px auto 70px auto;
+ display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: 8px solid #A8715E;
+  box-shadow: 0px 0px 8px #0F3032;
+  border-radius: 20px;
+}
+#img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+margin:20px 10px;
+border-color: #614B45;
+border: 2px solid #5C4741;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+#paragraph{
+  font-style: italic;
+  color: #A8715E;
+}
+.text{
+  color: #E9D4CB;
+  text-shadow: 5px 3px 6px black;
+}
+.footer{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #D8D2D1;
+  font-weight: bold;
+}
+.footer-text{
+  margin: 0px auto;
+  color: #353637;
+}
+#link{
+  text-decoration: none;
+  color: #7E4A3C;
+}
+span{
+  font-style: italic;
+  font-size: 20px;
+}
